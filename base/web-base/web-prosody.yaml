@@ -41,15 +41,15 @@ spec:
           imagePullPolicy: Always
           env:
             - name: XMPP_SERVER
-              value: meet.jitsi
+              value: littledarling.org.uk
             - name: JICOFO_AUTH_USER
               value: focus
             - name: XMPP_DOMAIN
-              value: meet.jitsi
+              value: littledarling.org.uk
             - name: XMPP_AUTH_DOMAIN
-              value: auth.meet.jitsi
+              value: auth.littledarling.org.uk
             - name: XMPP_INTERNAL_MUC_DOMAIN
-              value: internal-muc.meet.jitsi
+              value: internal-muc.littledarling.org.uk
             - name: PUBLIC_URL
               value: http://littledarling.org.uk
               # valueFrom:
@@ -106,13 +106,13 @@ spec:
               subPath: jitsi-meet.cfg.lua
           env:
             - name: XMPP_DOMAIN
-              value: meet.jitsi
+              value: littledarling.org.uk
             - name: XMPP_AUTH_DOMAIN
-              value: auth.meet.jitsi
+              value: auth.littledarling.org.uk
             - name: XMPP_MUC_DOMAIN
-              value: muc.meet.jitsi
+              value: muc.littledarling.org.uk
             - name: XMPP_INTERNAL_MUC_DOMAIN
-              value: internal-muc.meet.jitsi
+              value: internal-muc.littledarling.org.uk
             - name: JICOFO_COMPONENT_SECRET
               value: SGVsbG9AMTIzNDU25467gfh
               # valueFrom:
