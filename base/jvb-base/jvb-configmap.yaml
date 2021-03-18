@@ -98,16 +98,16 @@ data:
   config: |
     # Jitsi Videobridge settings
     # sets the XMPP domain (default: none) << update this >> use your xmpp_server
-    JVB_HOSTNAME=  
+    JVB_HOSTNAME=littledarling.org.uk
 
     # sets the hostname of the XMPP server (default: domain if set, localhost otherwise)
-    JVB_HOST=
+    JVB_HOST=littledarling.org.uk
 
     # sets the port of the XMPP server (default: 5275)
     JVB_PORT=5347
 
     # sets the shared secret used to authenticate to the XMPP server
-    JVB_SECRET=bSp2WL0R
+    JVB_SECRET=bSp2WL0RRE
 
     # extra options to pass to the JVB daemon
     JVB_OPTS="--apis=,"
