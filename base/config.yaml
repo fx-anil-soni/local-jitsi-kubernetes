@@ -14,7 +14,7 @@ data:
   TZ: America/Los_Angeles 
   XMPP_SERVER: a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com 
   PUBLIC_URL: a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com 
-  XMPP_BOSH_URL_BASE: http://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com:5280 
+  XMPP_BOSH_URL_BASE: a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com:5280 
   DOCKER_HOST_ADDRESS: a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com 
   JICOFO_COMPONENT_SECRET: SGVsbG9AMTIzNDU25467gfh 
   JVB_AUTH_PASSWORD: SGVsbG9AMTIzNDU25467gfh 
