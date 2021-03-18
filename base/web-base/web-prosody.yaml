@@ -51,39 +51,45 @@ spec:
             - name: XMPP_INTERNAL_MUC_DOMAIN
               value: internal-muc.meet.jitsi
             - name: PUBLIC_URL
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: PUBLIC_URL
+              value: http://littledarling.org.uk
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: PUBLIC_URL
             - name: XMPP_BOSH_URL_BASE
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: XMPP_BOSH_URL_BASE
+              value: http://littledarling.org.uk:5280 
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: XMPP_BOSH_URL_BASE
             - name: XMPP_MUC_DOMAIN
               value: muc.meet.jitsi
             - name: TZ
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: TZ
+              value: America/Los_Angeles
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: TZ
             - name: JVB_TCP_HARVESTER_DISABLED
               value: "true"
             - name: SHARD_NAME
-              valueFrom:
-                configMapKeyRef:
-                  name: web-shard-config
-                  key: SHARD_NAME
+              value: "shr0"
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: web-shard-config
+              #     key: SHARD_NAME
             - name: OCTO_REGION
-              valueFrom:
-                configMapKeyRef:
-                  name: web-shard-config
-                  key: OCTO_REGION
+              value: "ap-south-1"
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: web-shard-config
+              #     key: OCTO_REGION
             - name: USER_REGION
-              valueFrom:
-                configMapKeyRef:
-                  name: web-shard-config
-                  key: USER_REGION
+              value: "ap-south-1"
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: web-shard-config
+              #     key: USER_REGION
             - name: TESTING_OCTO_PROBABILITY
               value: "1"
             - name: START_AUDIO_MUTED
@@ -108,49 +114,57 @@ spec:
             - name: XMPP_INTERNAL_MUC_DOMAIN
               value: internal-muc.meet.jitsi
             - name: JICOFO_COMPONENT_SECRET
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: JICOFO_COMPONENT_SECRET
+              value: SGVsbG9AMTIzNDU25467gfh
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: JICOFO_COMPONENT_SECRET
             - name: JVB_AUTH_USER
               value: jvb
             - name: JVB_AUTH_PASSWORD
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: JVB_AUTH_PASSWORD
+              value: SGVsbG9AMTIzNDU25467gfh
+              # valueFrom:
+              # configMapKeyRef:
+              #   name: jitsi-config
+              #   key: JVB_AUTH_PASSWORD
             - name: JICOFO_AUTH_USER
               value: focus
             - name: JICOFO_AUTH_PASSWORD
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: JICOFO_AUTH_PASSWORD
+              value: SGVsbG9AMTIzNDU25467gfh
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: JICOFO_AUTH_PASSWORD
             - name: TZ
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: TZ
+              value: America/Los_Angeles
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: TZ
             - name: JWT_APP_ID
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: JWT_APP_ID
+              value: "gwr"
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: JWT_APP_ID
             - name: JWT_APP_SECRET
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: JWT_APP_SECRET
+              value: SGVsbG9AMTIzNDU25467gfh
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: JWT_APP_SECRET
             - name: JWT_ACCEPTED_ISSUERS
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: JWT_ACCEPTED_ISSUERS
+              value: my_web_client,my_app_client
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: JWT_ACCEPTED_ISSUERS
             - name: PUBLIC_URL
-              valueFrom:
-                configMapKeyRef:
-                  name: jitsi-config
-                  key: PUBLIC_URL
+              value: "http://littledarling.org.uk"
+              # valueFrom:
+              #   configMapKeyRef:
+              #     name: jitsi-config
+              #     key: PUBLIC_URL
             - name: JVB_TCP_HARVESTER_DISABLED
               value: "true"
             - name: ENABLE_AUTH
