@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: jitsi/web:stable-5390-3
+          image: jitsi/web:stable-5076
           volumeMounts:
             - mountPath: /defaults/config.js
               name: web-config

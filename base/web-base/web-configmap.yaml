@@ -94,7 +94,7 @@ data:
     welcomePageAdditionalContent.html: |
         <template id = "welcome-page-additional-content-template">
         <div id="footer">
-        <center><a href="https://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com">Your Site</a></center>
+        <center><a href="https://littledarling.org.uk">Your Site</a></center>
         </div>
         </template>
 
@@ -126,7 +126,7 @@ data:
             DEFAULT_REMOTE_DISPLAY_NAME: 'Gast',
             DEFAULT_LOCAL_DISPLAY_NAME: 'Ich',
             SHOW_JITSI_WATERMARK: false,
-            JITSI_WATERMARK_LINK: 'http://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com',
+            JITSI_WATERMARK_LINK: 'http://littledarling.org.uk',
 
             // if watermark is disabled by default, it can be shown only for guests
             SHOW_WATERMARK_FOR_GUESTS: false,
@@ -214,7 +214,7 @@ data:
             LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
             REMOTE_THUMBNAIL_RATIO: 1, // 1:1
             // Documentation reference for the live streaming feature.
-            LIVE_STREAMING_HELP_LINK: 'http://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com/',
+            LIVE_STREAMING_HELP_LINK: 'http://littledarling.org.uk/',
 
             /**
             * Whether the mobile app Jitsi Meet is to be promoted to participants
@@ -237,7 +237,7 @@ data:
             * If indicated some of the error dialogs may point to the support URL for
             * help.
             */
-            SUPPORT_URL: 'http://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com/',
+            SUPPORT_URL: 'http://littledarling.org.uk/',
 
             /**
             * Whether the connection indicator icon should hide itself based on
@@ -390,10 +390,10 @@ data:
             },
 
             // BOSH URL. FIXME: use XEP-0156 to discover it. << update this >>
-            bosh: '//a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com/http-bind',
+            bosh: '//littledarling.org.uk/http-bind',
 
             // Websocket URL << update this >>
-            websocket: 'wss://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com/xmpp-websocket',
+            websocket: 'wss://littledarling.org.uk/xmpp-websocket',
 
             // The name of client node advertised in XEP-0115 'c' stanza
             clientNode: 'http://jitsi.org/jitsimeet',
