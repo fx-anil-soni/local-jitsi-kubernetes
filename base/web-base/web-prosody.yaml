@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: jitsi/web:stable-5390-3
+          image: 175666096504.dkr.ecr.us-east-2.amazonaws.com/jistsi-web:3.0.0
           volumeMounts:
             - mountPath: /defaults/config.js
               name: web-config
