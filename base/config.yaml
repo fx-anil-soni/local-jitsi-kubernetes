@@ -12,10 +12,10 @@ metadata:
   name: jitsi-config
 data:
   TZ: America/Los_Angeles 
-  XMPP_SERVER: littledarling.org.uk 
-  PUBLIC_URL: https://littledarling.org.uk 
-  XMPP_BOSH_URL_BASE: http://littledarling.org.uk:5280 
-  DOCKER_HOST_ADDRESS: littledarling.org.uk 
+  XMPP_SERVER: a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com 
+  PUBLIC_URL: http://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com 
+  XMPP_BOSH_URL_BASE: http://a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com:5280 
+  DOCKER_HOST_ADDRESS: a9034c78bf329456cbdc6b7001a51439-1773099539.ap-south-1.elb.amazonaws.com 
   JICOFO_COMPONENT_SECRET: SGVsbG9AMTIzNDU25467gfh 
   JVB_AUTH_PASSWORD: SGVsbG9AMTIzNDU25467gfh 
   JICOFO_AUTH_PASSWORD: SGVsbG9AMTIzNDU25467gfh 
