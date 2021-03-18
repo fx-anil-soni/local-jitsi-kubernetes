@@ -89,7 +89,7 @@ spec:
             - name: START_AUDIO_MUTED
               value: "4"
         - name: prosody
-          image: jitsi/prosody:stable-5390-3
+          image: jitsi/prosody:stable-5076
           imagePullPolicy: Always
           volumeMounts:
             - mountPath: /prosody-plugins-custom/mod_token_moderation.lua
